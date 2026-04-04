@@ -1,0 +1,18 @@
+:root{
+--font-global: 'Montserrat', sans-serif;
+
+--color-principal: #2f80ed;
+--color-secundario: #4f4f4f;
+--color-gray: #828282;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-global);
+}
