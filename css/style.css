@@ -16,8 +16,8 @@
 
 body {
   font-family: var(--font-global);
-  display: block;
   background-color: var(--color-fondo);
+  display: block;
 }
 
 @media (max-width: 1000px) {
@@ -32,9 +32,10 @@ body {
   margin: 40px auto;
   display: grid;
   gap: 30px;
+  grid-template-columns: 1fr 2fr ;
 }
 
-.contenedor_aside {
+.contenedor_aside_perfil {
   min-width: 370px;
 }
 
@@ -61,7 +62,80 @@ body {
   color: var(--color-secundario);
 }
 
-perfil_p {
+.perfil_p {
+    text-align: left;
   margin-top: 5px;
+  color: var(--color-gray);
+}
+
+.perfil_email {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.perfil_telefono {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 18px;
+}
+
+.perfil_descripcion {
+  margin-top: 29px;
+  font-size: 18px;
+  color: var(--color-gray);
+}
+
+/*EXPERIENCIA*/
+
+.contenedor_aside_experiencia {
+  margin-top: 40px;
+}
+
+.experiencia_titulo {
+  margin-bottom: 35px;
+}
+
+.experiencia_tarjeta {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  padding: 20px 0;
+}
+
+.img_contenedor {
+  margin-bottom: 15px;
+}
+
+.img_contenedor img {
+  width: 100%;
+}
+
+.info_contenedor p {
+  padding-left: 10px;
+}
+
+.info_p1 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--color-gray);
+  margin-bottom: 10px;
+}
+
+.info_contenedor h3 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--color-negro);
+  margin-bottom: 20px;
+}
+.info_p2 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
   color: var(--color-gray);
 }

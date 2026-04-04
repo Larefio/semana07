@@ -13,16 +13,15 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    
     <div class="contenedor">
       <aside class="contenedor_aside">
-        <article class="contenedor_aside tarjeta">
+        <article class="contenedor_aside_perfil tarjeta">
           <div class="perfil_img">
             <img src="images/profile.jpg" alt="perfil" />
           </div>
           <h1 class="perfil_nombre titulo">Billy Pearson</h1>
           <p class="perfil_p">Front-end Developer</p>
-          <div>
+          <div class="perfil_email">
             <img
               src="images/correo-electronico.png"
               alt="icono social"
@@ -30,53 +29,63 @@
             />
             <p>Billy@example.com</p>
           </div>
-          <div>
+          <div class="perfil_telefono">
             <img src="images/llamar.png" alt="icono social" width="16px" />
             <p>(+603) 546 624 342</p>
           </div>
-          <p>
+          <p class="perfil_descripcion">
             Self-motivated developer, who is willing to learn and create
             outstanding UI applications.
           </p>
         </article>
 
-        <article>
-          <h2>Experiencies</h2>
-          <div>
-            <article>
-              <div>
+        <section class="contenedor_aside_experiencia tarjeta">
+          <h2 class="experiencia_titulo titulo">Experiencies</h2>
+
+          <div class="">
+            <article class="experiencia_tarjeta">
+              <div class="img_contenedor">
                 <img src="images/EXP-1.png" alt="addidas" />
               </div>
-              <div>
-                <p>Feb-2017-Current</p>
+              <div class="info_contenedor">
+                <p class="info_p1">Feb-2017-Current</p>
                 <h3>Front-end Developer</h3>
-                <p>Donec aliquam est dui...</p>
+                <p class="info_p2">
+                  Donec aliquam est dui, vel vestibulum diam sollicitudin id.
+                  Quisque feugiat malesuada molestie. .
+                </p>
               </div>
             </article>
 
-            <article>
-              <div>
-                <img src="images/EXP-2.png" alt="addidas" />
+            <article class="experiencia_tarjeta">
+              <div class="img_contenedor">
+                <img src="images/EXP-2.png" alt="hym" />
               </div>
-              <div>
-                <p>Jan-2016-Feb-2018</p>
+              <div class="info_contenedor">
+                <p class="info_p1">Jan-2016-Feb-2018</p>
                 <h3>Full-Stack Developer</h3>
-                <p>Donec aliquam est dui...</p>
+                <p class="info_p2">
+                  Donec aliquam est dui, vel vestibulum diam sollicitudin id.
+                  Quisque feugiat malesuada molestie.
+                </p>
               </div>
             </article>
 
-            <article>
-              <div>
+            <article class="experiencia_tarjeta">
+              <div class="img_contenedor">
                 <img src="images/EXP-3.png" alt="addidas" />
               </div>
-              <div>
-                <p>Dec-2015-Jan-2016</p>
+              <div class="info_contenedor">
+                <p class="info_p1">Dec-2015-Jan-2016</p>
                 <h3>Junior-Front-end Developer</h3>
-                <p>Donec aliquam est dui...</p>
+                <p class="info_p2">
+                  Donec aliquam est dui, vel vestibulum diam sollicitudin id.
+                  Quisque feugiat malesuada molestie.
+                </p>
               </div>
             </article>
           </div>
-        </article>
+        </section>
 
         <section>
           <h2>Hobbies</h2>
@@ -149,245 +158,6 @@
               <progress max="100" value="80"></progress>
             </div>
           </div>
-
-          <section>
-            <div>
-              <h3>Project (3)</h3>
-            </div>
-
-            <article>
-              <div><img src="images/project01.jpg" alt="proyecto-1" /></div>
-              <div>
-                <ul>
-                  <li>#HTML</li>
-                  <li>#CSS</li>
-                  <li>#Responsive</li>
-                </ul>
-                <h2>Recipe Blog</h2>
-                <p>In this project...</p>
-                <div>
-                  <button>Demo</button>
-                  <button>Code</button>
-                </div>
-              </div>
-            </article>
-
-            <article>
-              <div>
-                <img src="images/project02.jpg" alt="proyecto-2" />
-              </div>
-              <div>
-                <ul>
-                  <li>#HTML</li>
-                  <li>#CSS</li>
-                  <li>#Responsive</li>
-                </ul>
-                <h2>My Gallery</h2>
-                <p>In this project...</p>
-              </div>
-              <div>
-                <button>Demo</button>
-                <button>Code</button>
-              </div>
-            </article>
-
-            <article>
-              <div>
-                <img src="images/project03.jpg" alt="proyecto-3" />
-              </div>
-              <div>
-                <ul>
-                  <li>#HTML</li>
-                  <li>#CSS</li>
-                  <li>#Responsive</li>
-                </ul>
-                <h2>Checkout</h2>
-                <p>In this project...</p>
-                <div>
-                  <button>Demo</button>
-                  <button>Code</button>
-                </div>
-              </div>
-            </article>
-          </section>
-
-          <section>
-            <div>
-              <h3>Blogs (1)</h3>
-            </div>
-
-            <article>
-              <div>
-                <p>Blog</p>
-                <h2>How to organize your CSS</h2>
-                <p>In this article...</p>
-                <p>Donec aliquam...</p>
-                <a href="#">dev.to</a>
-              </div>
-              <div>
-                <img src="images/blog01.jpg" alt="blog-1" />
-              </div>
-            </article>
-          </section>
-        </div>
-      </main>
-    </div>
-
-    <footer>
-      <p>created by <span>username</span> - devChallenges.io</p>
-    </footer>
-  </body>
-</html>
-<!doctype html>
-<html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Semana 7</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <div class="contenedor">
-      <aside class="contenedor_aside">
-        <article class="contenedor_aside tarjeta">
-          <div class="perfil_img">
-            <img src="images/profile.jpg" alt="perfil" />
-          </div>
-          <h1 class="perfil_nombre titulo">Billy Pearson</h1>
-          <p class="perfil_p">Front-end Developer</p>
-          <div>
-            <img
-              src="images/correo-electronico.png"
-              alt="icono social"
-              width="16px"
-            />
-            <p>Billy@example.com</p>
-          </div>
-          <div>
-            <img src="images/llamar.png" alt="icono social" width="16px" />
-            <p>(+603) 546 624 342</p>
-          </div>
-          <p>
-            Self-motivated developer, who is willing to learn and create
-            outstanding UI applications.
-          </p>
-        </article>
-
-        <article>
-          <h2>Experiencies</h2>
-          <div>
-            <article>
-              <div>
-                <img src="images/EXP-1.png" alt="addidas" />
-              </div>
-              <div>
-                <p>Feb-2017-Current</p>
-                <h3>Front-end Developer</h3>
-                <p>Donec aliquam est dui...</p>
-              </div>
-            </article>
-
-            <article>
-              <div>
-                <img src="images/EXP-2.png" alt="addidas" />
-              </div>
-              <div>
-                <p>Jan-2016-Feb-2018</p>
-                <h3>Full-Stack Developer</h3>
-                <p>Donec aliquam est dui...</p>
-              </div>
-            </article>
-
-            <article>
-              <div>
-                <img src="images/EXP-3.png" alt="addidas" />
-              </div>
-              <div>
-                <p>Dec-2015-Jan-2016</p>
-                <h3>Junior-Front-end Developer</h3>
-                <p>Donec aliquam est dui...</p>
-              </div>
-            </article>
-          </div>
-        </article>
-
-        <section>
-          <h2>Hobbies</h2>
-          <div>
-            <article>
-              <div>
-                <img src="images/hobbie01.jpg" alt="imagen hobbie" />
-              </div>
-              <h3>Gaming</h3>
-              <p>Quisque feugiat malesuada molestie.</p>
-            </article>
-
-            <article>
-              <div>
-                <img src="images/hobbie02.jpg" alt="imagen hobbie" />
-              </div>
-              <h3>Cooking</h3>
-              <p>Quisque feugiat malesuada molestie.</p>
-            </article>
-
-            <article>
-              <div>
-                <img src="images/hobbie03.jpg" alt="imagen hobbie" />
-              </div>
-              <h3>Biking</h3>
-              <p>Quisque feugiat malesuada molestie.</p>
-            </article>
-          </div>
-        </section>
-      </aside>
-
-      <main>
-        <div>
-          <section>
-            <h2>Front-end</h2>
-            <div>
-              <p>React</p>
-              <progress max="100" value="70"></progress>
-            </div>
-            <div>
-              <p>JavaScript</p>
-              <progress max="100" value="80"></progress>
-            </div>
-            <div>
-              <p>CSS</p>
-              <progress max="100" value="90"></progress>
-            </div>
-            <div>
-              <p>Vue</p>
-              <progress max="100" value="60"></progress>
-            </div>
-            <div>
-              <p>Redux</p>
-              <progress max="100" value="70"></progress>
-            </div>
-            <div>
-              <p>React Native</p>
-              <progress max="100" value="80"></progress>
-            </div>
-          </section>
-
-          <section>
-            <h2>Design</h2>
-            <div>
-              <p>Figma</p>
-              <progress max="100" value="90"></progress>
-            </div>
-            <div>
-              <p>Adobe Photoshop</p>
-              <progress max="100" value="80"></progress>
-            </div>
-          </section>
 
           <section>
             <div>
