@@ -1,18 +1,67 @@
-:root{
---font-global: 'Montserrat', sans-serif;
+:root {
+  --font-global: "Montserrat", sans-serif;
 
---color-principal: #2f80ed;
---color-secundario: #4f4f4f;
---color-gray: #828282;
-
+  --color-principal: #2f80ed;
+  --color-secundario: #4f4f4f;
+  --color-gray: #828282;
+  --color-blanco: #fff;
+  --color-fondo: #f2f2f2;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: var(--font-global);
+body {
+  font-family: var(--font-global);
+  display: block;
+  background-color: var(--color-fondo);
+}
+
+@media (max-width: 1000px) {
+  .contenedor {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.contenedor {
+  width: 95%;
+  max-width: 1440px;
+  margin: 40px auto;
+  display: grid;
+  gap: 30px;
+}
+
+.contenedor_aside {
+  min-width: 370px;
+}
+
+.tarjeta {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--color-blanco);
+  box-shadow: 0px 8px 9px -3px rgba(130, 130, 130, 0.84);
+}
+
+.perfi_img img {
+  width: 100%;
+}
+
+.perfil_nombre {
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.titulo {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--color-secundario);
+}
+
+perfil_p {
+  margin-top: 5px;
+  color: var(--color-gray);
 }
