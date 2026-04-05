@@ -42,7 +42,7 @@
         <section class="contenedor_aside_experiencia tarjeta">
           <h2 class="experiencia_titulo titulo">Experiencies</h2>
 
-          <div class="">
+          <div class="experiencia_tarjeta_div">
             <article class="experiencia_tarjeta">
               <div class="img_contenedor">
                 <img src="images/EXP-1.png" alt="addidas" />
@@ -87,27 +87,27 @@
           </div>
         </section>
 
-        <section>
-          <h2>Hobbies</h2>
-          <div>
-            <article>
-              <div>
+        <section class="contenedor_aside_hobbies tarjeta">
+          <h2 class="titulo_hobbie hobbie_tarjeta">Hobbies</h2>
+          <div class="hobbie_tarjeta_div">
+            <article class="hobbie_article">
+              <div class="tarjeta_imagen_hobbie">
                 <img src="images/hobbie01.jpg" alt="imagen hobbie" />
               </div>
               <h3>Gaming</h3>
               <p>Quisque feugiat malesuada molestie.</p>
             </article>
 
-            <article>
-              <div>
+            <article class="hobbie_article">
+              <div class="tarjeta_imagen hobbie">
                 <img src="images/hobbie02.jpg" alt="imagen hobbie" />
               </div>
               <h3>Cooking</h3>
               <p>Quisque feugiat malesuada molestie.</p>
             </article>
 
-            <article>
-              <div>
+            <article class="hobbie_article">
+              <div class="tarjeta_imagen_hobbie">
                 <img src="images/hobbie03.jpg" alt="imagen hobbie" />
               </div>
               <h3>Biking</h3>
@@ -117,132 +117,201 @@
         </section>
       </aside>
 
-      <main>
+      <main class="contenedor_main">
         <div>
-          <section>
-            <h2>Front-end</h2>
-            <div>
-              <p>React</p>
-              <progress max="100" value="70"></progress>
-            </div>
-            <div>
-              <p>JavaScript</p>
-              <progress max="100" value="80"></progress>
-            </div>
-            <div>
-              <p>CSS</p>
-              <progress max="100" value="90"></progress>
-            </div>
-            <div>
-              <p>Vue</p>
-              <progress max="100" value="60"></progress>
-            </div>
-            <div>
-              <p>Redux</p>
-              <progress max="100" value="70"></progress>
-            </div>
-            <div>
-              <p>React Native</p>
-              <progress max="100" value="80"></progress>
-            </div>
-          </section>
+          <div class="contenedor_main_grid">
+            <section class="tarjeta section_main">
+              <h2 class="contenedor_titulo">Front-end</h2>
+              <div class="contenedor_progreso">
+                <div class="contenedor_items">
+                  <p class="contenedor_titulo_div">React</p>
+                  <progress
+                    class="contenedor_barra"
+                    max="100"
+                    value="70"
+                  ></progress>
+                </div>
+                <div class="contenedor_items">
+                  <p class="contenedor_titulo_div">JavaScript</p>
+                  <progress
+                    class="contenedor_barra"
+                    max="100"
+                    value="80"
+                  ></progress>
+                </div>
+                <div class="contenedor_items">
+                  <p class="contenedor_titulo_div">CSS</p>
+                  <progress
+                    class="contenedor_barra"
+                    max="100"
+                    value="90"
+                  ></progress>
+                </div>
+                <div class="contenedor_items">
+                  <p class="contenedor_titulo_div">Vue</p>
+                  <progress
+                    class="contenedor_barra"
+                    max="100"
+                    value="60"
+                  ></progress>
+                </div>
+                <div class="contenedor_items">
+                  <p class="contenedor_titulo_div">Redux</p>
+                  <progress
+                    class="contenedor_barra"
+                    max="100"
+                    value="70"
+                  ></progress>
+                </div>
+                <div class="contenedor_items">
+                  <p class="contenedor_titulo_div">React Native</p>
+                  <progress
+                    class="contenedor_barra"
+                    max="100"
+                    value="80"
+                  ></progress>
+                </div>
+              </div>
+            </section>
 
-          <div>
-            <h2>Design</h2>
-            <div>
-              <p>Figma</p>
-              <progress max="100" value="90"></progress>
-            </div>
-            <div>
-              <p>Adobe Photoshop</p>
-              <progress max="100" value="80"></progress>
+            <div class="contenedor_progreso tarjeta">
+              <h2 class="contenedor_titulo">Design</h2>
+              <div class="contenedor_progreso">
+                <div class="contenedor_items">
+                  <p class="contenedor_titulo_div">Figma</p>
+                  <progress
+                    class="contenedor_barra"
+                    max="100"
+                    value="90"
+                  ></progress>
+                </div>
+                <div class="contenedor_items">
+                  <p class="contenedor_titulo_div">Photoshop</p>
+                  <progress
+                    class="contenedor_barra"
+                    max="100"
+                    value="80"
+                  ></progress>
+                </div>
+              </div>
             </div>
           </div>
 
-          <section>
-            <div>
+          <section class="seccion_titulos">
+            <div class="tarjeta">
               <h3>Project (3)</h3>
             </div>
-
-            <article>
-              <div><img src="images/project01.jpg" alt="proyecto-1" /></div>
-              <div>
-                <ul>
-                  <li>#HTML</li>
-                  <li>#CSS</li>
-                  <li>#Responsive</li>
-                </ul>
-                <h2>Recipe Blog</h2>
-                <p>In this project...</p>
-                <div>
-                  <button>Demo</button>
-                  <button>Code</button>
+            <div class="article_proyecto">
+              <article class="tarjeta article_tarjeta">
+                <div class="article_img">
+                  <img src="images/project01.jpg" alt="proyecto-1" />
                 </div>
-              </div>
-            </article>
-
-            <article>
-              <div>
-                <img src="images/project02.jpg" alt="proyecto-2" />
-              </div>
-              <div>
-                <ul>
-                  <li>#HTML</li>
-                  <li>#CSS</li>
-                  <li>#Responsive</li>
-                </ul>
-                <h2>My Gallery</h2>
-                <p>In this project...</p>
-              </div>
-              <div>
-                <button>Demo</button>
-                <button>Code</button>
-              </div>
-            </article>
-
-            <article>
-              <div>
-                <img src="images/project03.jpg" alt="proyecto-3" />
-              </div>
-              <div>
-                <ul>
-                  <li>#HTML</li>
-                  <li>#CSS</li>
-                  <li>#Responsive</li>
-                </ul>
-                <h2>Checkout</h2>
-                <p>In this project...</p>
-                <div>
-                  <button>Demo</button>
-                  <button>Code</button>
+                <div class="article_contenido">
+                  <ul class="article_ul">
+                    <li>#HTML</li>
+                    <li>#CSS</li>
+                    <li>#Responsive</li>
+                  </ul>
+                  <h2>Recipe Blog</h2>
+                  <p>
+                    In this project, I work with HTML and CSS to create a
+                    responsive page . The design is from devchallenge.io. Donec
+                    aliquam est dui, vel vestibulum diam sollicitudin id.
+                    Quisque feugiat malesuada molestie.
+                  </p>
+                  <div>
+                    <button class="boton_demo">Demo</button>
+                    <button class="boton_code">Code</button>
+                  </div>
                 </div>
-              </div>
-            </article>
+              </article>
+
+              <article class="tarjeta article_tarjeta">
+                <div class="article_img">
+                  <img src="images/project02.jpg" alt="proyecto-2" />
+                </div>
+                <div class="article_contenido">
+                  <ul class="article_ul">
+                    <li>#HTML</li>
+                    <li>#CSS</li>
+                    <li>#Responsive</li>
+                  </ul>
+                  <h2>My Gallery</h2>
+                  <p>
+                    In this project, I work with HTML and CSS to create a
+                    responsive page . The design is from devchallenge.io. Donec
+                    aliquam est dui, vel vestibulum diam sollicitudin id.
+                    Quisque feugiat malesuada molestie..
+                  </p>
+                  <div>
+                    <button class="boton_demo">Demo</button>
+                    <button class="boton_code">Code</button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="tarjeta article_tarjeta">
+                <div class="article_img">
+                  <img src="images/project03.jpg" alt="proyecto-3" />
+                </div>
+                <div class="article_contenido">
+                  <ul class="article_ul">
+                    <li>#HTML</li>
+                    <li>#CSS</li>
+                    <li>#Responsive</li>
+                  </ul>
+                  <h2>Checkout</h2>
+                  <p>
+                    In this project, I work with HTML and CSS to create a
+                    responsive page . The design is from devchallenge.io. Donec
+                    aliquam est dui, vel vestibulum diam sollicitudin id.
+                    Quisque feugiat malesuada molestie..
+                  </p>
+                  <div>
+                    <button class="boton_demo">Demo</button>
+                    <button class="boton_code">Code</button>
+                  </div>
+                </div>
+              </article>
+            </div>
           </section>
 
-          <section>
-            <div>
+          <section class="seccion_titulos">
+            <div class="tarjeta">
               <h3>Blogs (1)</h3>
             </div>
+            <div class="article_blog">
+              <article class="tarjeta article_blog_tarjeta">
+                <div>
+                  <p class="blog">Blog</p>
+                  <h2>
+                    How to <br />
+                    organize your <br />
+                    CSS
+                  </h2>
+                  <p>
+                    In this article I tell the story about Proin eu justo sit
+                    amet lacus bibendum tincidunt. Vivamus non volutpat nisl, a
+                    luctus mi.
+                    <br />
+                    <br />
+                    Donec aliquam est dui, vel vestibulum diam sollicitudin id.
+                    Quisque feugiat malesuada molestie.
+                  </p>
 
-            <article>
-              <div>
-                <p>Blog</p>
-                <h2>How to organize your CSS</h2>
-                <p>In this article...</p>
-                <p>Donec aliquam...</p>
-                <a href="#">dev.to</a>
-              </div>
-              <div>
-                <img src="images/blog01.jpg" alt="blog-1" />
-              </div>
-            </article>
+                  <a href="#" class="web">dev.to</a>
+                </div>
+                <div class="article_imagen_blog">
+                  <img src="images/blog01.jpg" alt="blog-1" />
+                </div>
+              </article>
+            </div>
           </section>
         </div>
       </main>
     </div>
 
-    <footer>
+    <footer class="pie_pagina">
       <p>created by <span>username</span> - devChallenges.io</p>
     </footer>
   </body>
